@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace RewixQ\LaravelSerialNumber\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelSerialNumberCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'make:serial-number';
 
     public $description = 'My command';
 
